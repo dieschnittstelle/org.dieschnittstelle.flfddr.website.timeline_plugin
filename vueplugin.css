@@ -1,0 +1,88 @@
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline-publications {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: -15px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    margin-top:5px;
+
+}
+ul.timeline > li {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+ul.timeline-publications > li {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+ul.timeline-publications:before {
+    content: ' ';
+    background: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: -15px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: #2e59b6;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #2e59b6;
+    left: -23px;
+    width: 18px;
+    height: 18px;
+    z-index: 400;
+    margin-top:5px;
+}
+
+ul.timeline-publications > li:before {
+    content: ' ';
+    background: #2e59b6;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #2e59b6;
+    left: -19px;
+    width: 10px;
+    height: 10px;
+    z-index: 400;
+    margin-top:9px;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+
+a h3{
+    color:#2e59b6;
+}
+
+.id_style{
+    color:red;
+    font-weight: bold;
+}
+
+.hidden-in-edit-mode{
+    color:grey;
+    font-size:8pt;
+}
